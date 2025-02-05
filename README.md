@@ -1,8 +1,10 @@
-Modern MVC Architecture with PHP and PostgreSQL
-🚀 Project Overview
+# Modern MVC Architecture with PHP and PostgreSQL
+
+
+## 🚀 Project Overview
 A clean, modular MVC architecture using PHP and PostgreSQL, focused on separation of concerns, security, and extensibility. The project includes a Back Office for admins and a Front Office for public access, following best development practices.
 
-🛠 Technologies Used
+## 🛠 Technologies Used
 PHP
 PostgreSQL
 Git
@@ -17,7 +19,9 @@ Role & Permission Management (ACL)
 Twig Template Engine
 SQL Injection & XSS Protection
 Dependency Injection & Service Management
-📁 Project Structure
+
+
+## 📁 Project Structure
 bash
 Copy
 Edit
@@ -40,7 +44,9 @@ Security: CSRF, SQL Injection, XSS protection.
 Modular Architecture: Easy to extend and maintain.
 Template Engine: Using Twig for clear separation of views and logic.
 Session Management: Handled by Session.php and Auth.php.
-⚙️ Setup Instructions
+
+
+## ⚙️ Setup Instructions
 Clone the repository:
 bash
 Copy
@@ -54,9 +60,13 @@ composer install
 Configure .env for PostgreSQL credentials.
 Set up the database and run migrations.
 Access the app at public/index.php.
-💡 Optimization & Best Practices
+
+
+## 💡 Optimization & Best Practices
 Optimize SQL queries to reduce execution time.
 Use clear class/method names, following PSR-1 & PSR-12 standards.
 Document code with clear comments.
-📄 License
+
+
+### 📄 License
 MIT License
