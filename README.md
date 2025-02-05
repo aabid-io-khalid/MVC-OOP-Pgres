@@ -5,6 +5,7 @@
 A clean, modular MVC architecture using PHP and PostgreSQL, focused on separation of concerns, security, and extensibility. The project includes a Back Office for admins and a Front Office for public access, following best development practices.
 
 ## 🛠 Technologies Used
+
 PHP
 PostgreSQL
 Git
@@ -22,9 +23,7 @@ Dependency Injection & Service Management
 
 
 ## 📁 Project Structure
-bash
-Copy
-Edit
+
 /projet-mvc-php
 │── public/                  # Entry point, assets, .htaccess
 │── app/                     # Main app logic
@@ -38,7 +37,10 @@ Edit
 │── .env                     # Environment variables
 │── composer.json            # Composer dependencies
 │── .gitignore               # Git ignores
-🔒 Best Practices
+
+
+## 🔒 Best Practices
+
 Separation of Responsibilities: Public and admin-facing sections.
 Security: CSRF, SQL Injection, XSS protection.
 Modular Architecture: Easy to extend and maintain.
@@ -47,6 +49,7 @@ Session Management: Handled by Session.php and Auth.php.
 
 
 ## ⚙️ Setup Instructions
+
 Clone the repository:
 bash
 Copy
@@ -63,6 +66,7 @@ Access the app at public/index.php.
 
 
 ## 💡 Optimization & Best Practices
+
 Optimize SQL queries to reduce execution time.
 Use clear class/method names, following PSR-1 & PSR-12 standards.
 Document code with clear comments.
