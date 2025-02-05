@@ -11,8 +11,10 @@ PostgreSQL
 Git
 JSON
 Composer
-UML
-✅ Features
+
+
+## ✅ Features
+
 Custom Router for advanced route management
 Secure PostgreSQL Connection via PDO
 Authentication System with sessions 
@@ -24,18 +26,18 @@ Dependency Injection & Service Management
 
 ## 📁 Project Structure
 
-│── public/                  # Entry point, assets, .htaccess
-│── app/                     # Main app logic
-│   ├── core/                # Core classes: Router, Controller, Model
-│   ├── controllers/         # Controllers: Front and Back Office
-│   ├── models/              # Models: Database interaction
-│   ├── views/               # Views: Twig templates
-│── config/                  # App configuration: database, routes
-│── logs/                    # Logs
-│── vendor/                  # Composer dependencies
-│── .env                     # Environment variables
-│── composer.json            # Composer dependencies
-│── .gitignore               # Git ignores
+public/: Entry point, assets, .htaccess
+app/: Main application logic
+core/: Core classes (Router, Controller, Model)
+controllers/: Front and Back Office controllers
+models/: Models for database interaction
+views/: Twig templates for views
+config/: Application configuration (database, routes)
+logs/: Logs
+vendor/: Composer dependencies
+.env: Environment variables
+composer.json: Composer dependencies
+.gitignore: Git ignore configuration
 
 
 ## 🔒 Best Practices
