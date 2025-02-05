@@ -24,7 +24,6 @@ Dependency Injection & Service Management
 
 ## 📁 Project Structure
 
-/projet-mvc-php
 │── public/                  # Entry point, assets, .htaccess
 │── app/                     # Main app logic
 │   ├── core/                # Core classes: Router, Controller, Model
@@ -46,23 +45,6 @@ Security: CSRF, SQL Injection, XSS protection.
 Modular Architecture: Easy to extend and maintain.
 Template Engine: Using Twig for clear separation of views and logic.
 Session Management: Handled by Session.php and Auth.php.
-
-
-## ⚙️ Setup Instructions
-
-Clone the repository:
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/projet-mvc-php.git
-Install dependencies:
-bash
-Copy
-Edit
-composer install
-Configure .env for PostgreSQL credentials.
-Set up the database and run migrations.
-Access the app at public/index.php.
 
 
 ## 💡 Optimization & Best Practices
